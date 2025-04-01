@@ -1,5 +1,7 @@
 # LÀ GÎT LE GRAAL
+
 # L'introduction à GIT dont vous êtes le héros
+
 Aurélien Bénel, 2018 (révisions en 2020, 2022, 2023, 2024)
 
 ## Prologue
@@ -48,7 +50,8 @@ Vous enfourchez votre fier destrier, sortez des écuries au pas et traversez ce 
   1. Dans votre terminal, lancez `npx ungit`.
   2. Dans l'interface qui apparaît, collez l'URI de tout à l'heure dans `clone from` et lancez la copie privée de l'entrepôt.
 
-  L'équivalent en ligne de commande aurait été `git clone`.
+L'équivalent en ligne de commande aurait été `git clone`.
+
 </details>
 
 Votre regard se pose sur la baguette : elle est noueuse mais encore verte... Puis votre regard se lève, interrogatif, à la recherche des yeux du vieillard. Mais ce dernier a disparu.
@@ -59,8 +62,8 @@ Que de choses se sont passées !
   <summary>👩🏾‍💻</summary>
   Éditez le fichier `etat.yml` :
 
-  - changez le lieu en `pont-levis`,
-  - ajoutez `baguette` à votre inventaire.
+- changez le lieu en `pont-levis`,
+- ajoutez `baguette` à votre inventaire.
 </details>
 
 Pour garder le souvenir du déroulement de cette aventure, vous faites une marque sur la baguette avec la pointe de votre couteau.
@@ -70,7 +73,8 @@ Pour garder le souvenir du déroulement de cette aventure, vous faites une marqu
   
   Dans `ungit`, saisissez le titre de votre nouvelle entrée et validez sa création (`commit`).
 
-  L'équivalent en ligne de commande aurait été `git commit -a`.
+L'équivalent en ligne de commande aurait été `git commit -a`.
+
 </details>
 
 Non, sérieusement ?!?
@@ -83,11 +87,12 @@ Et que pourra faire un ménestrel de votre histoire si vous ne vous appliquez pa
   
   Dans `ungit`, amendez (`amend`) la dernière entrée de manière à ce que le titre :
 
-  - commence par un préfixe correspondant au bénéfice de votre exploit (`ADVERSAIRE:`, `ÉQUIPEMENT:`, `TÉMOIGNAGE:`, etc.),
-  - soit correct grammaticalement,
-  - soit aussi explicite que possible (tout en restant court).
- 
-  L'équivalent en ligne de commande aurait été `git commit --amend`.
+- commence par un préfixe correspondant au bénéfice de votre exploit (`ADVERSAIRE:`, `ÉQUIPEMENT:`, `TÉMOIGNAGE:`, etc.),
+- soit correct grammaticalement,
+- soit aussi explicite que possible (tout en restant court).
+
+L'équivalent en ligne de commande aurait été `git commit --amend`.
+
 </details>
 
 Vous constatez avec stupeur que la baguette est désormais un peu plus grande, comme pour recueillir, étape après étape, le récit de vos exploits.
@@ -106,9 +111,9 @@ Le chevalier attache la bride de votre cheval à sa selle et poursuit sa route, 
   
   Éditez le fichier `etat.yml` :
 
-  - changez le lieu en `route`,
-  - supprimez `cheval` de votre inventaire,
-  - retranchez un point à votre `santé`.
+- changez le lieu en `route`,
+- supprimez `cheval` de votre inventaire,
+- retranchez un point à votre `santé`.
 </details>
 
 ![Vaincu par le chevalier noir](https://upload.wikimedia.org/wikipedia/commons/4/48/Michelant-ed-Meraugis-p231-Vienna-fol035r-b.png)
@@ -167,8 +172,8 @@ Faisant de grands moulinets avec son épée, démesurément longue, il parvient 
   <summary>👩🏾‍💻</summary>
   Prenez note de son attaque :
 
- - retranchez 2 points à votre santé,
- - ajoutez une entrée à votre historique.
+- retranchez 2 points à votre santé,
+- ajoutez une entrée à votre historique.
 </details>
 
 Avec le courage du désespoir vous bondissez vers lui et profitant de la lourdeur de son épée, vous tournez autour de lui, enfoncez votre épée entre deux plaques de son armure, d'un côté puis de l'autre. Il tombe à terre. Alors que vous ramassez sa très longue épée, dans un dernier sursaut, il vous étrangle de ses mains.
@@ -210,8 +215,8 @@ Vous décidez d'explorer une autre réalité dans laquelle vous auriez choisi de
   L'équivalent en ligne de commande aurait été `git checkout -b fisher-king HEAD~1`.
 </details>
 
-Tout est redevenu comme avant le combat. 
-Seule votre baguette magique garde la mémoire de ce qui s'est passé. 
+Tout est redevenu comme avant le combat.
+Seule votre baguette magique garde la mémoire de ce qui s'est passé.
 Un bourgeon s'apprête à pousser juste au niveau du premier nœud de votre histoire.
 
 ## Le lion et le serpent
@@ -307,7 +312,6 @@ Traversez le pont de l'épée et pénétrez dans le château.
 
 ![Le pont de l'épée](https://img.over-blog-kiwi.com/0/55/18/81/20161112/ob_610402_lancelot-pont-epee-detail.jpg)
 
-
 ## Le roi pêcheur
 
 Vous êtes accueilli avec beaucoup de bienveillance par le Roi Pêcheur. Celui-ci est couché et blessé à la jambe. Une lance ensanglantée est posée à ses côtés.
@@ -329,7 +333,7 @@ Il est temps que vous preniez note de ce qui vous est arrivé.
 Le Graal, personne ne l'a jamais vu, ni ne sait ce que c'est : une coupe, une fiole de sang, des rouleaux de parchemin, un antique chaudron celte...
 Qui le sait, si ce n'est vous ?
 
-![Le Graal tel que vous l'avez vu]()
+![Le Graal tel que vous l'avez vu](image.jpg)
 
 <details>
   <summary>👩🏾‍💻</summary>
@@ -342,7 +346,7 @@ Qui le sait, si ce n'est vous ?
   En ligne de commande, vous auriez eu à utiliser `git add` pour prendre en compte le nouveau fichier, avant de lancer `git commit -a`.
 </details>
 
-Vous êtes satisfait de la légende qui raconte vos hauts faits ? Publiez la. 
+Vous êtes satisfait de la légende qui raconte vos hauts faits ? Publiez la.
 
 <details>
   <summary>👩🏾‍💻</summary>
@@ -371,7 +375,7 @@ L'analogie entre Git et un jeu vidéo est reprise de l'incontournable [Git Magic
 
 Les scènes de ce tutoriel sont librement inspirées des romans arthuriens de
 Chrétien de Troyes (XIIe s.) :
-[*Yvain ou le chevalier au lion*](https://fr.wikipedia.org/wiki/Yvain_ou_le_Chevalier_au_lion),
-[*Lancelot ou le chevalier de la charrette*](https://fr.wikipedia.org/wiki/Lancelot_ou_le_Chevalier_de_la_charrette), [*Perceval ou le conte du Graal*](https://fr.wikipedia.org/wiki/Perceval_ou_le_Conte_du_Graal).
+[_Yvain ou le chevalier au lion_](https://fr.wikipedia.org/wiki/Yvain_ou_le_Chevalier_au_lion),
+[_Lancelot ou le chevalier de la charrette_](https://fr.wikipedia.org/wiki/Lancelot_ou_le_Chevalier_de_la_charrette), [_Perceval ou le conte du Graal_](https://fr.wikipedia.org/wiki/Perceval_ou_le_Conte_du_Graal).
 
 Certaines images référencées peuvent être protégées par le droit d'auteur.
