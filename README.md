@@ -44,56 +44,38 @@ Avant de partir à l'aventure, vous harnachez votre cheval et rassemblez votre �
 
 Vous enfourchez votre fier destrier, sortez des écuries au pas et traversez ce que l'on appelle "la basse cour". À l'instant où vous vous apprêtez à franchir le pont-levis, un vieillard, vêtu d'un long manteau blanc, vous tend une branche de bois.
 
-<details>
-  <summary>👩🏾‍💻</summary>
-  
-  1. Dans votre terminal, lancez `npx ungit`.
-  2. Dans l'interface qui apparaît, collez l'URI de tout à l'heure dans `clone from` et lancez la copie privée de l'entrepôt.
-
-L'équivalent en ligne de commande aurait été `git clone`.
-
-</details>
+> 1. Dans votre terminal, lancez `npx ungit`.
+> 2. Dans l'interface qui apparaît, collez l'URI de tout à l'heure dans `clone from` et lancez la copie privée de l'entrepôt.
+>
+> L'équivalent en ligne de commande aurait été `git clone`.
 
 Votre regard se pose sur la baguette : elle est noueuse mais encore verte... Puis votre regard se lève, interrogatif, à la recherche des yeux du vieillard. Mais ce dernier a disparu.
 
 Que de choses se sont passées !
 
-<details>
-  <summary>👩🏾‍💻</summary>
-  Éditez le fichier `etat.yml` :
-
-- changez le lieu en `pont-levis`,
-- ajoutez `baguette` à votre inventaire.
-</details>
+> Éditez le fichier `etat.yml` :
+>
+> - changez le lieu en `pont-levis`,
+> - ajoutez `baguette` à votre inventaire.
 
 Pour garder le souvenir du déroulement de cette aventure, vous faites une marque sur la baguette avec la pointe de votre couteau.
 
-<details>
-  <summary>👩🏾‍💻</summary>
-  
-  Dans `ungit`, saisissez le titre de votre nouvelle entrée et validez sa création (`commit`).
-
-L'équivalent en ligne de commande aurait été `git commit -a`.
-
-</details>
+> Dans `ungit`, saisissez le titre de votre nouvelle entrée et validez sa création (`commit`).
+>
+> L'équivalent en ligne de commande aurait été `git commit -a`.
 
 Non, sérieusement ?!?
 Vous croyez qu'on parlera encore de vous dans 15 siècles si vous vous y prenez comme ça ?
 Sachez qu'il n'y a de bon héros sans un bon ménestrel pour chanter ses exploits.
 Et que pourra faire un ménestrel de votre histoire si vous ne vous appliquez pas un peu ?
 
-<details>
-  <summary>👩🏾‍💻</summary>
-  
-  Dans `ungit`, amendez (`amend`) la dernière entrée de manière à ce que le titre :
-
-- commence par un préfixe correspondant au bénéfice de votre exploit (`ADVERSAIRE:`, `ÉQUIPEMENT:`, `TÉMOIGNAGE:`, etc.),
-- soit correct grammaticalement,
-- soit aussi explicite que possible (tout en restant court).
-
-L'équivalent en ligne de commande aurait été `git commit --amend`.
-
-</details>
+> Dans `ungit`, amendez (`amend`) la dernière entrée de manière à ce que le titre :
+>
+> - commence par un préfixe correspondant au bénéfice de votre exploit (`ADVERSAIRE:`, `ÉQUIPEMENT:`, `TÉMOIGNAGE:`, etc.),
+> - soit correct grammaticalement,
+> - soit aussi explicite que possible (tout en restant court).
+>
+> L'équivalent en ligne de commande aurait été `git commit --amend`.
 
 Vous constatez avec stupeur que la baguette est désormais un peu plus grande, comme pour recueillir, étape après étape, le récit de vos exploits.
 
@@ -106,15 +88,11 @@ Vous êtes réveillé brusquement par une grande douleur au flanc, une sensation
 Au-dessus de vous un chevalier en armure noire, vous regarde en ricanant.
 Le chevalier attache la bride de votre cheval à sa selle et poursuit sa route, vous laissant, couvert de boue (et de honte), dans l'ornière.
 
-<details>
-  <summary>👩🏾‍💻</summary>
-  
-  Éditez le fichier `etat.yml` :
-
-- changez le lieu en `route`,
-- supprimez `cheval` de votre inventaire,
-- retranchez un point à votre `santé`.
-</details>
+> Éditez le fichier `etat.yml` :
+>
+> - changez le lieu en `route`,
+> - supprimez `cheval` de votre inventaire,
+> - retranchez un point à votre `santé`.
 
 ![Vaincu par le chevalier noir](https://upload.wikimedia.org/wikipedia/commons/4/48/Michelant-ed-Meraugis-p231-Vienna-fol035r-b.png)
 
@@ -168,13 +146,10 @@ Votre charge lui inflige une sérieuse blessure, mais il contre-attaque profitan
 
 Faisant de grands moulinets avec son épée, démesurément longue, il parvient à vous faire une grande estafilade au visage.
 
-<details>
-  <summary>👩🏾‍💻</summary>
-  Prenez note de son attaque :
-
-- retranchez 2 points à votre santé,
-- ajoutez une entrée à votre historique.
-</details>
+> Prenez note de son attaque :
+>
+> - retranchez 2 points à votre santé,
+> - ajoutez une entrée à votre historique.
 
 Avec le courage du désespoir vous bondissez vers lui et profitant de la lourdeur de son épée, vous tournez autour de lui, enfoncez votre épée entre deux plaques de son armure, d'un côté puis de l'autre. Il tombe à terre. Alors que vous ramassez sa très longue épée, dans un dernier sursaut, il vous étrangle de ses mains.
 
